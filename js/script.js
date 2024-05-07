@@ -43,6 +43,29 @@
 
 //   console.log(i);
 
+// let arr = [ 3, 2, 5, 4, 8, 10];
+// let arrsum = 0
+
+// for (let i = 0; i < arr.length; i++) {
+    
+    
+//      arrsum  += arr[i]
+
+ 
+                    
+//     console.log(arrsum);
+
+// }
+// console.log(sum[1]);
+
+let arr = [];
+for (let i = 10; i>=1; i--){
+   arr[arr.length]=i;
+}
+console.log(arr);
+
+
+
 
 
 
