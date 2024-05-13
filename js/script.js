@@ -154,25 +154,141 @@
 
 // console.log(z);
 
-let name = 'soul'
+// let name = 'soul'
 // let h1=document.querySelector('.a')
 
-function lalala() {
-let name = 'inside out'
+// function lalala() {
+// let name = 'inside out'
 
-let message = 'animation ' + name;
-console.log(message);
-// return()
+// let message = 'animation ' + name;
+// console.log(message);
+// return message
   
-}
+// }
 // h1.innerHTML = lalala()
-lalala()
-console.log(name);
+
+// lalala()
+// console.log(lalala());
+
+// TASK 2
+
+// let h1=document.querySelector('.a')
+// function task(b) {
+   
+//     return b**3+2
+    
+// }
+// let result = task(3);
+
+// h1.innerHTML = task(3)
+
+
+// let a = function Aysun(soyad) {
+//     console.log("Aysun", soyad);
+// }
+
+// a("Ismayilov")
 
 
 
 
 
+
+// a("Ismayoliova")
+
+// let age = prompt("What is your age?", 18);
+
+// let welcome;
+
+// if (age < 18) {
+//     welcome = function() {
+//         alert("Hello!");
+//     };
+//     welcome()
+
+
+// } else {
+//     welcome = function() {
+//         alert("Greetings!");
+//     };
+//     welcome()
+
+// }
+
+// welcome(); // ok now
+// welcome()
+// let age = 16; // take 16 as an example
+
+// if (age < 18) {
+// //   welcome();               // \   (runs)
+//                            //  |
+//   function welcome() {     //  |
+//     alert("Hello!");       //  |  Function Declaration is available
+//   }                        //  |  everywhere in the block where it's declared
+//                            //  |
+// //   welcome();               // /   (runs)
+
+// } else {
+
+//   function welcome() {
+//     alert("Greetings!");
+//   }
+// }
+
+
+// Here we're out of curly braces,
+// so we can not see Function Declarations made inside of them.
+// function hesab(a) {
+//    return a+2
+    
+// }
+
+// function sum(x) {
+//   return  x + hesab(2)
+// }
+
+// console.log(sum(5));
+
+// task 1
+
+// let h1=document.querySelector('.n')
+// function nameSurname(a,s) {
+//     return a + s
+// };
+
+// h1.innerHTML = nameSurname("Aysun","Ismayilova")
+
+
+// task 2
+
+// let h1 = document.querySelector('.n')
+// function getArray(array) {
+//     return array
+//   }
+
+// h1.innerHTML = [1, 2, 3, 4, 5, 6, 7];
+
+// task 3
+
+// let age = prompt('how old are you?');
+
+// if (age > 30) {
+//         dayday = function() {
+//             alert("senin yasinda olan masin day day masinidir");
+//         };
+//         dayday()
+//     } else if (age < 30){
+//         dayday = function() {
+//             alert("senin yasinda olan masin qenaetcildir");
+//         };
+//          dayday()
+//     } else {
+//         dayday = function() {
+//             alert("olmusen");
+//         };
+//         dayday()
+
+//     };
 
 
 
