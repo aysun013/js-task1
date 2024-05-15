@@ -256,17 +256,20 @@
 //     return a + s
 // };
 
-// h1.innerHTML = nameSurname("Aysun","Ismayilova")
+// h1.innerHTML = nameSurname("Aysun ","Ismayilova")
 
 
 // task 2
+
+// let a = [1, 2, 3, 4, 5, 6, 7, 8];
+// let b = ["memmed","asif"]
 
 // let h1 = document.querySelector('.n')
 // function getArray(array) {
 //     return array
 //   }
 
-// h1.innerHTML = [1, 2, 3, 4, 5, 6, 7];
+// h1.innerHTML = getArray(b)
 
 // task 3
 
@@ -288,7 +291,42 @@
 //         };
 //         dayday()
 
-//     };
+//     }
+
+
+// TASK CARDS
+
+// let cards = [
+//     { title: "adidas 1", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
+//     { title: "adidas 2", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
+//     { title: "adidas 3", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
+//     { title: "adidas 4", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
+//     { title: "adidas 5", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" }
+// ];
+// console.log(cards);
+
+
+let Cards = () =>  {
+    let cards = [];
+
+    let Card = (title, image) => {
+        return {
+            title: "adidas",
+            image: "/js/images.png"
+        };
+    }
+
+    for (let i = 1; i <= 5; i++) {
+        Card(`adidas ${i}`, `images${i}.png`);
+    }
+
+    return cards;
+}
+
+let div = document.querySelector(".card");
+div.innerHTML = Cards();
+
+
 
 
 
