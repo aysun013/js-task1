@@ -294,40 +294,179 @@
 //     }
 
 
-// TASK CARDS
+// let sayHi = () => alert("Hello!");
 
-// let cards = [
-//     { title: "adidas 1", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
-//     { title: "adidas 2", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
-//     { title: "adidas 3", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
-//     { title: "adidas 4", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" },
-//     { title: "adidas 5", Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQxXX3MPSI0uQRolGIk9PaQ-azVJi-7W7Ox1VlPf3Xg&s" }
-// ];
-// console.log(cards);
+// sayHi();
+
+// alert("Hello")
+// let result= 5
+// function sum(a, b) {
+//     let result = a + b;
+  
+//     return result;
+//   }
+
+//   console.log(result);
+
+// console.log(sum(3,2));
+
+// function show() {
+//     return{
+
+//     }
+// }
+
+// let user = {
+//     name:"Shahlar",
+//     age: 20,
+//     position: "lkdsnfkls"
+   
+// }
+
+// Object.assign(user, )
+// console.log(user);
+// user.surname = "Abbasov"
+
+// // let arr = ["name","Shahlar","Sevda"]
+
+// // for (const aysun in arr) {
+// //    console.log(aysun);
+// // }
+
+// console.log(user);
 
 
-let Cards = () =>  {
-    let cards = [];
-
-    let Card = (title, image) => {
-        return {
-            title: "adidas",
-            image: "/js/images.png"
-        };
-    }
-
-    for (let i = 1; i <= 5; i++) {
-        Card(`adidas ${i}`, `images${i}.png`);
-    }
-
-    return cards;
-}
-
-let div = document.querySelector(".card");
-div.innerHTML = Cards();
+// TASK 4
 
 
+// let h1 = document.querySelector(".w")
+// let word = "happy";
+// let name = "Shahlar";
+// let reverseWord = (a) => {
+//     return a.split('').reverse().join('')
+// }
+// h1.innerHTML = reverseWord(name)
+// console.log(Reverse);
+
+
+// TASK 5
+// let h1 = document.querySelector(".w")
+// let str = "we are learning";
+// let arr2 = "Bu gun tasklara cehd var"
+// let capitalize = (text) => {
+
+//    let word = text.split(' ')
+//    console.log(word);
+//    let x=""
+//        for (let i = 0; i < word.length; i++) {
+//         // console.log( word[i][0].toUpperCase() + word[i].slice(1));
+//       x +=   word[i][0].toUpperCase() + word[i].slice(1) + " "
+
+//     console.log(x);
+      
+       
+        
+      
+//     }
+//     return x
+
+  
+// }
 
 
 
 
+// h1.innerHTML = capitalize(arr2)
+
+// TASK 6
+
+// let h1= document.querySelector(".w")
+
+// let count = (text) => {
+
+//     let words = text.split(' ')
+//     // words = words.trim()
+//     console.log(words.length);
+    
+    
+//     return words.length;
+    
+// }
+
+// let text = "we are learning";
+
+// h1.innerHTML = count(text );
+// console.log(text);
+
+
+// TASK 7
+
+
+// let MinMax = (arr) => {
+   
+//     let min = Math.min(...arr);
+//     let max = Math.max(...arr);
+//    console.log(min);
+//    let a = `${min}, ${max}`
+//     return a;
+// }
+
+// let num = [45, 14, 26, 32];
+// let h1 = document.querySelector(".w")
+// h1.innerHTML = MinMax(num);
+
+
+// let obj = {
+//     name:'shahlar',
+//     surname:'abbasov',
+//     age:28
+// }
+
+
+// for (const key in obj) {
+//    console.log(obj[key]);
+        
+//     }
+
+// 25.05.2024
+// TASK 8
+
+// function theLongestWord(sentence) {
+//     let words = sentence.split(' ');
+//     let longestWord = "";
+//    for (const word of words) {
+//        if (word.length > longestWord.length) {
+//         longestWord = word;
+//        }
+//    }
+    
+//     return longestWord;
+
+// }
+// let sentence = "Bu gun hava soyuqdur";
+// let h1 = document.querySelector('.w');
+// h1.innerHTML = theLongestWord(sentence);
+
+// TASK 9
+
+// function sumArr(numbers) {
+//     let sum = 0;
+//     for (const number of numbers) {
+//         sum += number;
+//     }
+//     return sum;
+// }
+// let numbers = [1, 2, 45, 6, 23, 9];
+// let h1 = document.querySelector('.w');
+// h1.innerHTML = sumArr(numbers);
+
+// TASK 10
+
+// function array(numbers) {
+
+//     return numbers.sort((a,b)=>a-b);
+    
+// }
+// let numbers = [16, 28, 45, 62, 23, 19];
+// let h1 = document.querySelector('.w');
+// h1.innerHTML = array(numbers);
